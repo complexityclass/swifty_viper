@@ -2,11 +2,12 @@
 name: "swifty_viper"
 summary: "Swift VIPER module template with UIViewController playing as a View."
 author: "Valeriy Popov"
-version: "1.1.1"
+version: "0.1.0"
 license: "MIT"
 
 # The declarations for code files
 
+code_files:
 # View layer
 - {name: View/ViewInput.swift,  path: Code/View/view_input.swift.liquid}
 - {name: View/ViewOutput.swift, path: Code/View/view_output.swift.liquid}
