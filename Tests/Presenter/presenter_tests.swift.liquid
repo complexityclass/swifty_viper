@@ -3,7 +3,7 @@
 //  {{ module_info.project_name }}
 //
 //  Created by {{ developer.name }} on {{ date }}.
-//  Copyright {{ year }} {{ developer.company }}. All rights reserved.
+//  Copyright ©{{ year }} {{ developer.company }}. All rights reserved.
 //
 
 import XCTest
@@ -30,5 +30,8 @@ class {{ module_info.name }}PresenterTest: XCTestCase {
 
     class MockViewController: {{ module_info.name }}ViewInput {
 
+        func setupInitialState() {
+
+        }
     }
 }
